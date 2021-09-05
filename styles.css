@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url("./images/bg-header-desktop.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container-1{
+    margin: 200px auto 60px auto;
+}
+.header-img{
+    display: block;
+  margin:0 auto 40px auto;
+  width: 100px;
+}
+.header-text{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.header-p{
+    text-align: center;
+    margin: 10px auto;
+    max-width: 550px;
+    color: hsl(201, 11%, 66%);
+    font-weight: 600;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.green-button{
+    margin: 20px 20px 30px 0;
+    padding: 10px 20px;
+    border-radius: 900px;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: hsl(171, 66%, 44%) 0px 8px 2px -3px, hsl(171, 66%, 44%) 0px 4px 6px -2px, rgba(0, 0, 0, 0.15) 0px 5px 15px 0px,
+    hsl(171, 66%, 44%) 0px 4px 6px -2px;
+}
+.blue-button{
+    margin: 20px 20px 30px 0;
+    padding: 10px 20px;
+    border-radius: 900px;
+    background-color: hsl(233, 100%, 69%);
+    border: hsl(233, 100%, 69%);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: hsl(233, 100%, 69%) 0px 8px 2px -3px, hsl(233, 100%, 69%) 0px 4px 6px -2px, rgba(0, 0, 0, 0.15) 0px 5px 15px 0px,hsl(233, 100%, 69%) 0px 4px 6px -2px;
+}
+.heading2{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.content{
+    margin:0 auto 20px auto ;
+    text-align: center;
+    max-width: 630px;
+    color: hsl(201, 11%, 66%);
+    font-weight: bold;
+    line-height: 1.5;
+}
+.container-1-snippets{
+    margin-top: 20px;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 60px 20px;
+}
+.comp-img{
+    margin-right: 100px;
+    max-width: 525px;
+}
+.flex-1-content{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-1-content li{
+    margin-bottom: 30px;
+}
+
+.flex-1-content li p{
+    margin: 0;
+    max-width: 340px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    color: hsl(201, 11%, 66%);
+}
+
+.flex-1-content li:last-child {
+    margin-bottom: 0;
+}
+ .heading3{
+    font-size: 1.75rem;
+    margin-bottom: 5px;
+}
+.devices-img{
+    display: block;
+    margin: 30px  auto  0  auto;
+    max-width: 525px;
+}
+.flex-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex-2 > div{
+    margin: 5px;
+}
+.content-flex{
+    max-width: 340px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 5vh;
+    color: hsl(201, 11%, 66%);
+    gap: 1.5rem;
+}
+.flex-2-img{
+    margin-bottom: 20px;
+    width: 50px;
+}
+.flex-3-imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-4{
+    margin-bottom: 80px;
+}
+.logo-imgs{
+    width:165px;
+    margin: 20px;
+}
+#footer{
+    text-align: center;
+    margin-top:30px;
+    color: black;
+    margin-bottom: 20px;
+    font-size:20px;
+    font-weight:bold;
+  }
+  .footer-icon{
+    margin:20px 10px;
+    color: grey;
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:900px){
+    .flex-1{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center;
+        margin: 0 20px 60px 20px; */
+    }
+    .comp-img{
+        margin-right: 0;
+    }
+    .flex-1-content{
+        text-align: center;
+        margin-top: 10px
+    }
+    .content{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media(max-width:480px){
+    .flex-2{
+        flex-direction: column;
+    }
+    .header-p,.content{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media(max-width:370px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .green-button{
+        margin-bottom: 10px;
+    }
+    .container-1{
+        margin-top: 50px;
+    }
+    .container-4{
+        margin-bottom: 30px;
+    }
+}
