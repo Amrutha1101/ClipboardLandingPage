@@ -196,8 +196,6 @@ body{
         margin-left: 5px;
         margin-right: 5px;
     }
-}
-@media(max-width:370px){
     .buttons{
         display: flex;
         flex-direction: column;
@@ -210,5 +208,19 @@ body{
     }
     .container-4{
         margin-bottom: 30px;
+}
+/* @media(max-width:370px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
     }
+    .green-button{
+        margin-bottom: 10px;
+    }
+    .container-1{
+        margin-top: 50px;
+    }
+    .container-4{
+        margin-bottom: 30px;
+    } */
 }
